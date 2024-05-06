@@ -37,8 +37,18 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Giới thiệu</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Sản phẩm</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sản phẩm
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Giường</a>
+                                        <a class="dropdown-item" href="#">Tủ</a>
+                                        <a class="dropdown-item" href="#">Đèn</a>
+                                        <a class="dropdown-item" href="#">Cây</a>
+                                        <a class="dropdown-item" href="#">Tranh</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Blog</a>
@@ -60,7 +70,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="d-flex justify-content-end">
-                        <a href="#" class="btn btn-primary">
+                        <a href="#" class="btn btn-primary mr-3">
                             <i class="fas fa-user"></i>
                         </a>
                         <a href="#" class="btn btn-primary">
@@ -78,8 +88,23 @@
                     <h1>Nâng tầm không gian - Tạo nên đẳng cấp</h1>
                     <p>Khám phá không gian sống mới mẻ và sang trọng với những thiết kế nội thất đương đại, nâng tầm
                         không gian sống của bạn.</p>
-                    <a href="#" class="btn btn-light">Mua sắm ngay</a>
+                    <a href="#" class="btn btn-light mb-4">Mua sắm ngay</a>
+                    <div class="row text-center mt-4">
+                        <div class="col">
+                            <h3>15.000+</h3>
+                            <p>Sản phẩm đa dạng</p>
+                        </div>
+                        <div class="col">
+                            <h3>10+</h3>
+                            <p>Hệ thống cửa hàng</p>
+                        </div>
+                        <div class="col">
+                            <h3>2020+</h3>
+                            <p>Giải thưởng</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
             <div class="col-md-6 p-0 bg-primary">
                 <img src="images/banner_imp.webp" alt="Banner" class="img-fluid w-100">
@@ -111,15 +136,31 @@
                         <p>Chất liệu gỗ, nhôm, nhựa</p>
                     </div>
                 </div>
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <img src="images/product/giuong.webp" alt="Giường" class="img-fluid">
+                        <h3>Giường</h3>
+                        <p>Giường đa phong cách</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section class="collection">
         <div class="container">
-            <h2>Bộ sưu tập</h2>
-            <div class="row justify-content-center my-4"> <!-- Thêm dòng mới -->
+            <h2 class="block-title position-relative text-center bold mb-3">
+                <a title="Bộ sưu tập">Bộ sưu tập</a>
+            </h2>
 
-            </div>
+            <ul class="tabs tabs-title tab-pc tabtitle ajax clearfix d-flex list-unstyled mb-md-4 mb-3">
+                <li class="tab-link tab_cate px-4 mb-md-2 has-content current" data-tab="tab-1" data-url="/giuong">
+                    Giường</li>
+                <li class="tab-link tab_cate px-4 mb-md-2 has-content" data-tab="tab-2" data-url="/tu">Tủ</li>
+                <li class="tab-link tab_cate px-4 mb-md-2 has-content" data-tab="tab-3" data-url="/den">Đèn</li>
+                <li class="tab-link tab_cate px-4 mb-md-2 has-content" data-tab="tab-4" data-url="/cay">Cây</li>
+                <li class="tab-link tab_cate px-4 mb-md-2 has-content" data-tab="tab-5" data-url="/tranh">Tranh</li>
+
+            </ul>
             <div class="row">
                 <div class="col-md-4">
                     <div class="product-card">
@@ -131,9 +172,9 @@
                 </div>
                 <div class="col-md-4">
                     <div class="product-card">
-                        <img src="images/product/giường ngủ sắt.webp" alt="Giường ngủ sắt Kim Thành KTS05"
+                        <img src="images/product/giường ngủ sắt.webp" alt="Giường ngủ sắt Kim Thành"
                             class="img-fluid">
-                        <h3>Giường ngủ sắt Kim Thành KTS05</h3>
+                        <h3>Giường ngủ sắt Kim Thành</h3>
                         <p>2.600.000₫</p>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
                     </div>
@@ -155,9 +196,11 @@
 
     <section class="bottom-banner">
         <div class="container">
-            <img src="images/m_banner.webp" alt="Banner" class="img-fluid">
+            <img src="images/m2-banner.webp" alt="Banner" class="img-fluid" class="image-darken">
             <div class="banner-text">
                 <h1>NGUỒN CẢM HỨNG VÔ TẬN</h1>
+                <h2>Khám phá nội thất thiết kế đương đại mang đến cảm giác thoải mái, sang trọng. Cá nhân hoá trong từng
+                    sản phẩm phù hợp với mọi không gian sống.</h2>
             </div>
         </div>
     </section>
@@ -176,7 +219,7 @@
                 <div class="col-md-3">
                     <div class="product-card">
                         <img src="images/den_pha_le.webp" alt="Product 2" class="img-fluid">
-                        <h3>Đèn chùm Rosemas pha lê</h3>
+                        <h3>Đèn chùm Rosemas</h3>
                         <p>33.490.000₫</p>
                         <button class="btn btn-primary">Thêm vào giỏ</button>
                     </div>
@@ -208,28 +251,67 @@
             </div>
         </div>
     </section>
-
-    <section class="review">
+  
+    <section class="review mt-5">
         <div class="container">
             <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Đánh giá của khách hàng</h2>
+                    <p>Hơn 1.000 khách hàng đã hài lòng về dịch vụ và sản phẩm của chúng tôi</p>
+                </div>
                 <div class="col-md-6">
-                    <!-- Ảnh ở đây -->
                     <img src="images/anh_review.jpg" alt="Review Image" class="img-fluid">
                 </div>
                 <div class="col-md-6">
                     <!-- đánh giá của khách hàng -->
-                <div id="reviewCarousel" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <h2>Đặng Hoàng Phúc</h2>
-                        <p>"Sản phẩm được thiết kế chi tiết, nhiều mẫu mã và đặc biệt nhân viên tư vấn nhiệt tình. Tôi rất hài lòng với trải nghiệm tại đây!"</p>
-                        <p>- Giáo viên</p>
-                    </div>
-                    <div class="item">
-                        <h2>Nguyễn Lan Hương</h2>
-                        <p>"Sau khi được bạn bè giới thiệu, tôi đã đến tham khảo và hoàn toàn bất ngờ với các sản phẩm nội thất của Lifi Decor. Không chỉ đẹp và sang."</p>
-                        <p>- Bác sĩ</p>
+                    <div id="reviewCarousel" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <h2>Đặng Hoàng Phúc</h2>
+                            <p>"Sản phẩm được thiết kế chi tiết, nhiều mẫu mã và đặc biệt nhân viên tư vấn nhiệt tình.
+                                Tôi rất hài lòng với trải nghiệm tại đây!"</p>
+                            <p>- Giáo viên</p>
+                        </div>
+                        <div class="item">
+                            <h2>Nguyễn Lan Hương</h2>
+                            <p>"Sau khi được bạn bè giới thiệu, tôi đã đến tham khảo và hoàn toàn bất ngờ với các sản
+                                phẩm nội thất của Lifi Decor. Không chỉ đẹp và sang."</p>
+                            <p>- Bác sĩ</p>
+                        </div>
+                        <div class="item">
+                            <h2>Nguyễn Thị Linh</h2>
+                            <p>"Sản phẩm ở đây rất chất lượng. Tôi sẽ tiếp tục mua tiếp"</p>
+                            <p>- Giáo viên</p>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Blog chia sẻ</h2>
+                    <p>Những tin tức mới nhất từ chúng tôi</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/bo-tri-phong-lam-viec-tai-nha-26-min.webp" alt="Blog 1" class="img-fluid">
+                    <h3>Cách Bố Trí Phòng Làm Việc Tại Nhà Đơn Giản Dễ Làm Nhất</h3>
+                    <p>Phòng làm việc giờ đây đã trở thành không gian quan trọng trong ngôi nhà. Nhưng bố trí phòng làm việc tại nhà sao cho thật thuận tiện, bắt mắt và khoa học thì...</p>
+                    <button class="btn btn-primary">Đọc thêm</button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/kich-thuoc-giuong-tre-em-10-min.webp" alt="Blog 2" class="img-fluid">
+                    <h3>Bật Mí Kích Thước Giường Trẻ Em Đảm Bảo An Toàn Tuyệt Đối</h3>
+                    <p>Hiện nay, khi tìm giường cho con trẻ các bậc phụ huynh cũng cần quan tâm về kích thước giường trẻ em cho từng bé trong gia đình. Bởi điều này sẽ ảnh hưởng trực tiếp...</p>
+                    <button class="btn btn-primary">Đọc thêm</button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/ban-lam-viec-xoay-360-do-13-min.webp" alt="Blog 3" class="img-fluid">
+                    <h3>5+ mẫu bàn làm việc xoay 360 độ linh hoạt thông minh nhất</h3>
+                    <p>Sự tiện dụng, thoải mái và thông minh luôn được đặt lên hàng đầu trong xã hội ngày nay. Vì vậy, những món đồ nội thất mang lại sự tiện nghi và không quá đắt đỏ...</p>
+                    <button class="btn btn-primary">Đọc thêm</button>
                 </div>
             </div>
         </div>
